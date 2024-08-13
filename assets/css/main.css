@@ -1373,3 +1373,14 @@ section,
       right: 5px;
   }
 }
+
+/* Change title color on hover */
+.service-item:hover .title {
+  color: #007bff; /* Bootstrap primary blue color */
+}
+
+/* Change image color on hover */
+.service-item:hover .icon img {
+  filter: hue-rotate(180deg) brightness(0.5) invert(1);
+}
+
